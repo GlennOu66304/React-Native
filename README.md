@@ -34,6 +34,8 @@ Main Reference:
 1.Node & Watchman   
 ```
 brew install node
+source ~/.bash_profile 
+nvm use node
 brew install watchman
 ```
 2.CocoaPods
