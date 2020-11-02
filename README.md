@@ -50,9 +50,13 @@ brew install watchman
 [Run the local React Native project on the iOS and Android:](http://glennou.cn/2020/08/22/create-an-app-with-Reac-Native/)  
 
 ### 2.Xcode:  
-
+Because the lates version Xcode require 40 GB free storage, then you need to downloa the old version Xcode app to fix this issue;  
+[Xcode old version install](https://developer.apple.com/download/more/)  
 [React Native For Everyone #2 - iOS Setup & Simulator](https://www.youtube.com/watch?v=K0y2tc38l2s&ab_channel=LevelUpTuts)  
-
+[entering a file path into Finder or elsewhere?](https://discussions.apple.com/thread/3911493#:~:text=Answer%3A%20A%3A-,Answer%3A%20A%3A,%22%20button%20%26%20you%20are%20there.)  
+[How To Recover Disk Space From Xcode](http://blog.neverthesamecolor.net/how-to-recover-disk-space-from-xcode/)   
+[Xcode free space requirement](https://apple.stackexchange.com/questions/252753/xcode-free-space-requirement)  
+[Xcode "There is not enough disk space available to install the product." with plenty of space.](https://developer.apple.com/forums/thread/27992)   
 ## Resource
 1.[LCRN EP3 - Trip Booking App (React Native)](https://www.youtube.com/watch?v=iVT7DRw2e7g&list=LL&index=2&t=101s&ab_channel=ByProgrammers)   
 2.Source Code:  [byprogrammers/lets-code-react-native](https://github.com/byprogrammers/lets-code-react-native)   
