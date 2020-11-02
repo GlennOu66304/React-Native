@@ -30,11 +30,36 @@ Main Reference:
 [expo/create-react-native-app](https://github.com/expo/create-react-native-app)   
 [React Native UnhandledPromiseRejectionWarning: Error: Cannot find module […]\init.js](https://www.superglobals.net/react-native-unhandledpromiserejectionwarning-error-cannot-find-module-init-js/)   
 
-2.React Native CLI:  
+## 2.React Native CLI:  
+1.Node & Watchman   
 ```
 brew install node
 brew install watchman
 ```
+2.CocoaPods
+```
+sudo gem install cocoapods
+```
+3.Creating a new application
+```
+npx react-native init AwesomeProject
+```
+4.Running your React Native application,under the project folder
+```
+npx react-native start
+source ~/.bash_profile  
+nvm use node 
+```
+5.Bug fixing: error Error: Command failed: yarn add react-native@latest  
+```
+node -v 
+
+npx react-native init TripBookingApp 
+```
+Note If the above command is failing, you may have old version of react-native or react-native-cli installed globally on your pc. Try uninstalling the cli and run the cli using npx  
+[React-native init NewProject / yarn add got an error .](https://medium.com/codespace69/react-native-init-newproject-yarn-add-got-an-error-6a5353f8469b)  
+[How to uninstall react-native-cli on mac?](https://stackoverflow.com/questions/57248515/how-to-uninstall-react-native-cli-on-mac)   
+Main Reference:  
 [Setting up the development environment](https://reactnative.dev/docs/environment-setup)   
 
 ## 3. iOS Setup & Simulator  
@@ -64,7 +89,9 @@ Main reference:
 [Xcode free space requirement](https://apple.stackexchange.com/questions/252753/xcode-free-space-requirement)  
 [Xcode "There is not enough disk space available to install the product." with plenty of space.](https://developer.apple.com/forums/thread/27992)   
 
-#### 3.Expo web:  
+### 3.Expo web:  
+
+
 
 ## Resource
 1.[LCRN EP3 - Trip Booking App (React Native)](https://www.youtube.com/watch?v=iVT7DRw2e7g&list=LL&index=2&t=101s&ab_channel=ByProgrammers)   
