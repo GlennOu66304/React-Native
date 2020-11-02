@@ -55,7 +55,8 @@ nvm use node
 5.Bug fixing: error Error: Command failed: yarn add react-native@latest  
 ```
 node -v 
-
+source ~/.bash_profile 
+nvm use node
 npx react-native init TripBookingApp 
 ```
 Note If the above command is failing, you may have old version of react-native or react-native-cli installed globally on your pc. Try uninstalling the cli and run the cli using npx  
