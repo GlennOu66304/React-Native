@@ -62,6 +62,12 @@ npx react-native init TripBookingApp
 Note If the above command is failing, you may have old version of react-native or react-native-cli installed globally on your pc. Try uninstalling the cli and run the cli using npx  
 [React-native init NewProject / yarn add got an error .](https://medium.com/codespace69/react-native-init-newproject-yarn-add-got-an-error-6a5353f8469b)  
 [How to uninstall react-native-cli on mac?](https://stackoverflow.com/questions/57248515/how-to-uninstall-react-native-cli-on-mac)   
+6.Bug fixing:"React-Native: Error: Failed to install CocoaPods dependencies for iOS project, which is required by this template"
+```
+sudo gem install cocoapods -n/usr/local/bin
+```
+[React-Native: Error: Failed to install CocoaPods dependencies for iOS project, which is required by this template](https://stackoverflow.com/questions/58934022/react-native-error-failed-to-install-cocoapods-dependencies-for-ios-project-w)
+ [React-native installing required CocoaPods dependencies stuck](https://stackoverflow.com/questions/56896224/react-native-installing-required-cocoapods-dependencies-stuck/56896295)  
 Main Reference:  
 [Setting up the development environment](https://reactnative.dev/docs/environment-setup)   
 
