@@ -39,7 +39,7 @@ brew install watchman
 
 ## 3. iOS Setup & Simulator  
 
-### 1.Expo (iOS)
+### 1.Expo (iOS) with external device:
 1.To run this projec  in the iOS app via expo, you need to go to the webconsole of the React native;  
 2.then shift to the send link with the email to send the project address to your email;  
 3.at this moment, you need to make sure that your mobile device and pc both under the same internet or wifi;   
@@ -49,14 +49,23 @@ brew install watchman
 [Run Expo on your own device (iOS)](https://medium.com/@webcore1/how-run-expo-for-react-native-on-your-ios-device-and-first-impressions-49882c38763d)  
 [Run the local React Native project on the iOS and Android:](http://glennou.cn/2020/08/22/create-an-app-with-Reac-Native/)  
 
-### 2.Xcode:  
-Because the lates version Xcode require 40 GB free storage, then you need to downloa the old version Xcode app to fix this issue;  
+Apologize for the cancellation, I have a full day meeting which was assigned this day, I will find another time to take your class, See you soon.
+
+### 2. Expo Xcode on the iOS device:  
+1.You need to leave 40GB to allow the system to install the Xcode
+2.in the terminl to click the i to open the simulator:
+
+Main reference:  
+[iOS Simulator](https://docs.expo.io/workflow/ios-simulator/)  
 [Xcode old version install](https://developer.apple.com/download/more/)  
 [React Native For Everyone #2 - iOS Setup & Simulator](https://www.youtube.com/watch?v=K0y2tc38l2s&ab_channel=LevelUpTuts)  
 [entering a file path into Finder or elsewhere?](https://discussions.apple.com/thread/3911493#:~:text=Answer%3A%20A%3A-,Answer%3A%20A%3A,%22%20button%20%26%20you%20are%20there.)  
 [How To Recover Disk Space From Xcode](http://blog.neverthesamecolor.net/how-to-recover-disk-space-from-xcode/)   
 [Xcode free space requirement](https://apple.stackexchange.com/questions/252753/xcode-free-space-requirement)  
 [Xcode "There is not enough disk space available to install the product." with plenty of space.](https://developer.apple.com/forums/thread/27992)   
+
+#### 3.Expo web:  
+
 ## Resource
 1.[LCRN EP3 - Trip Booking App (React Native)](https://www.youtube.com/watch?v=iVT7DRw2e7g&list=LL&index=2&t=101s&ab_channel=ByProgrammers)   
 2.Source Code:  [byprogrammers/lets-code-react-native](https://github.com/byprogrammers/lets-code-react-native)   
