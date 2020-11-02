@@ -1,3 +1,19 @@
+## 1 - Create React Native App & Setup  
+1. npm and node version check:  
+```
+node -v
+npm -v
+```
+2. use the latest npm version to install the app:  
+```
+source ~/.bash_profile 
+nvm use node
+Now using node v14.14.0 (npm v6.14.8)
+```
+3. install the create-react-native-app package 
+```
+npm install -g create-react-native-app
+```
 
 
 
