@@ -49,6 +49,7 @@ brew install watchman
 [Run Expo on your own device (iOS)](https://medium.com/@webcore1/how-run-expo-for-react-native-on-your-ios-device-and-first-impressions-49882c38763d)  
 [Run the local React Native project on the iOS and Android:](http://glennou.cn/2020/08/22/create-an-app-with-Reac-Native/)  
 
+### 2.Xcode:  
 
 [React Native For Everyone #2 - iOS Setup & Simulator](https://www.youtube.com/watch?v=K0y2tc38l2s&ab_channel=LevelUpTuts)  
 
