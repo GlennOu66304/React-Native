@@ -1,7 +1,8 @@
 # Different version React Native build:
 To utilize the diffrent version React Native Project on the Github, first you need to change your node version. second under this node enviroment, you need to utilize different version of the React Native app documentation to run the project.  
-
-
+[React Native versions](https://reactnative.dev/versions)   
+[React Native versions](https://archive.reactnative.dev/versions)   
+[Cannot run create-react-native-app](https://stackoverflow.com/questions/46846335/cannot-run-create-react-native-app)  
 # Use the 0.63 version documeatation to build the project:
 
 ## 1 - Create React Native App & Setup  
@@ -57,9 +58,9 @@ Main reference:
 [Xcode free space requirement](https://apple.stackexchange.com/questions/252753/xcode-free-space-requirement)  
 [Xcode "There is not enough disk space available to install the product." with plenty of space.](https://developer.apple.com/forums/thread/27992)   
 
-### 4.Expo web:  
+### Expo web:  
 
-## 2.React Native CLI:  
+## React Native CLI:  
 
 ### Eniviroment Builder:  
 Terminal: Command in the Terminal    
@@ -85,6 +86,7 @@ sudo gem install cocoapods
 ```
 npx react-native init AwesomeProject
 ```
+[How to uninstall react-native-cli on mac?](https://stackoverflow.com/questions/57248515/how-to-uninstall-react-native-cli-on-mac?noredirect=1&lq=1)  
 ### Run the project in the second shell: 
 5.Running your React Native application,under the project folder
 ```
