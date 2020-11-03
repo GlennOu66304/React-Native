@@ -31,7 +31,19 @@ nvm install 8.3
 [Node, Watchman, JDK](https://archive.reactnative.dev/docs/0.17/getting-started)  
 
 
-
+## Utilize the node version v8.17.0 (sytem to run the peoject)
+Node, Watchman, JDK
+```
+node -v
+brew install watchman 
+brew tap AdoptOpenJDK/openjdk 
+brew cask install adoptopenjdk8
+```
+The React Native CLI  
+```
+npm install -g react-native-cli
+```
+[The React Native CLI](https://archive.reactnative.dev/docs/0.17/getting-started)   
 Main reference:  
 [如何运行github上react native项目](https://blog.csdn.net/shiningchen322/article/details/57881920?utm_medium=distribute.pc_relevant.none-task-blog-title-6&spm=1001.2101.3001.4242)  
 Source Code:[wwayne/react-native-nba-app](https://github.com/wwayne/react-native-nba-app)  
