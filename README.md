@@ -1,3 +1,9 @@
+# Different version React Native build:
+To utilize the diffrent version React Native Project on the Github, first you need to change your node version. second under this node enviroment, you need to utilize different version of the React Native app documentation to run the project.  
+
+
+# Use the 0.63 version documeatation to build the project:
+
 ## 1 - Create React Native App & Setup  
 1. npm and node version check:  
 ```
@@ -10,12 +16,8 @@ source ~/.bash_profile
 nvm use node
 Now using node v14.14.0 (npm v6.14.8)
 ```
-3. install the create-react-native-app package 
-```
-npm install -g create-react-native-app
-```
-##  2.create a app template:  
-1.Expo CLI  
+##  2.Expo create a app template:  
+### 1.Expo CLI  
 ```
 npm install -g expo-cli
 expo init tipCalc 
@@ -30,50 +32,7 @@ Main Reference:
 [expo/create-react-native-app](https://github.com/expo/create-react-native-app)   
 [React Native UnhandledPromiseRejectionWarning: Error: Cannot find module […]\init.js](https://www.superglobals.net/react-native-unhandledpromiserejectionwarning-error-cannot-find-module-init-js/)   
 
-## 2.React Native CLI:  
-1.Node & Watchman   
-```
-brew install node
-source ~/.bash_profile 
-nvm use node
-brew install watchman
-```
-2.CocoaPods
-```
-sudo gem install cocoapods
-```
-3.Creating a new application
-```
-npx react-native init AwesomeProject
-```
-4.Running your React Native application,under the project folder
-```
-npx react-native start
-source ~/.bash_profile  
-nvm use node 
-```
-5.Bug fixing: error Error: Command failed: yarn add react-native@latest  
-```
-node -v 
-source ~/.bash_profile 
-nvm use node
-npx react-native init TripBookingApp 
-```
-Note If the above command is failing, you may have old version of react-native or react-native-cli installed globally on your pc. Try uninstalling the cli and run the cli using npx  
-[React-native init NewProject / yarn add got an error .](https://medium.com/codespace69/react-native-init-newproject-yarn-add-got-an-error-6a5353f8469b)  
-[How to uninstall react-native-cli on mac?](https://stackoverflow.com/questions/57248515/how-to-uninstall-react-native-cli-on-mac)   
-6.Bug fixing:"React-Native: Error: Failed to install CocoaPods dependencies for iOS project, which is required by this template"
-```
-sudo gem install cocoapods -n/usr/local/bin
-```
-[React-Native: Error: Failed to install CocoaPods dependencies for iOS project, which is required by this template](https://stackoverflow.com/questions/58934022/react-native-error-failed-to-install-cocoapods-dependencies-for-ios-project-w)
- [React-native installing required CocoaPods dependencies stuck](https://stackoverflow.com/questions/56896224/react-native-installing-required-cocoapods-dependencies-stuck/56896295)  
-Main Reference:  
-[Setting up the development environment](https://reactnative.dev/docs/environment-setup)   
-
-## 3. iOS Setup & Simulator  
-
-### 1.Expo (iOS) with external device:
+### 2.Expo (iOS) with external device:
 1.To run this projec  in the iOS app via expo, you need to go to the webconsole of the React native;  
 2.then shift to the send link with the email to send the project address to your email;  
 3.at this moment, you need to make sure that your mobile device and pc both under the same internet or wifi;   
@@ -85,7 +44,7 @@ Main Reference:
 
 Apologize for the cancellation, I have a full day meeting which was assigned this day, I will find another time to take your class, See you soon.
 
-### 2. Expo Xcode on the iOS device:  
+### 3. Expo Xcode on the iOS device:  
 1.You need to leave 40GB to allow the system to install the Xcode
 2.in the terminl to click the i to open the simulator:
 
@@ -98,7 +57,55 @@ Main reference:
 [Xcode free space requirement](https://apple.stackexchange.com/questions/252753/xcode-free-space-requirement)  
 [Xcode "There is not enough disk space available to install the product." with plenty of space.](https://developer.apple.com/forums/thread/27992)   
 
-### 3.Expo web:  
+### 4.Expo web:  
+
+## 2.React Native CLI:  
+
+1.First step:
+```
+source ~/.bash_profile 
+nvm use node
+Now using node v14.14.0 (npm v6.14.8)
+```
+
+2.Node & Watchman   
+```
+brew install watchman
+```
+3.CocoaPods
+```
+sudo gem install cocoapods
+```
+4.Creating a new application
+```
+npx react-native init AwesomeProject
+```
+5.Running your React Native application,under the project folder
+```
+npx react-native start
+source ~/.bash_profile  
+nvm use node 
+```
+6.Bug fixing: error Error: Command failed: yarn add react-native@latest  
+```
+node -v 
+source ~/.bash_profile 
+nvm use node
+npx react-native init TripBookingApp 
+```
+Note If the above command is failing, you may have old version of react-native or react-native-cli installed globally on your pc. Try uninstalling the cli and run the cli using npx  
+[React-native init NewProject / yarn add got an error .](https://medium.com/codespace69/react-native-init-newproject-yarn-add-got-an-error-6a5353f8469b)  
+[How to uninstall react-native-cli on mac?](https://stackoverflow.com/questions/57248515/how-to-uninstall-react-native-cli-on-mac)   
+7.Bug fixing:"React-Native: Error: Failed to install CocoaPods dependencies for iOS project, which is required by this template"
+```
+sudo gem install cocoapods -n/usr/local/bin
+```
+[React-Native: Error: Failed to install CocoaPods dependencies for iOS project, which is required by this template](https://stackoverflow.com/questions/58934022/react-native-error-failed-to-install-cocoapods-dependencies-for-ios-project-w)
+ [React-native installing required CocoaPods dependencies stuck](https://stackoverflow.com/questions/56896224/react-native-installing-required-cocoapods-dependencies-stuck/56896295)  
+
+Main Reference:  
+[Setting up the development environment](https://reactnative.dev/docs/environment-setup)   
+
 
 
 
