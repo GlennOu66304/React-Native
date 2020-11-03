@@ -25,14 +25,35 @@
 ```
 node -v
 source ~/.bash_profile 
-nvm install 8.3 
+nvm install v8.3.0
+```
+Wait those code rungning finish, then you are able to see the node version build.  
+
+5.Node, Watchman, JDK
+```
+source ~/.bash_profile
+nvm use v8.3.0  
+brew install watchman 
+brew tap AdoptOpenJDK/openjdk 
+brew cask install adoptopenjdk8
+npm install -g react-native-cli 
+cd /Users/zt/react-native-nba-app  
+```
+6.run the Peroject: 
+```
+react-native start
+
+```
+7.open new shell under the project folder: 
+```
+npm test 
 ```
 [使用nvm管理node与npm版本](https://juejin.im/post/6844903861157642247)  
 [Node, Watchman, JDK](https://archive.reactnative.dev/docs/0.17/getting-started)  
 
 
 ## Utilize the node version v8.17.0 (sytem to run the peoject)
-Node, Watchman, JDK
+1.Node, Watchman, JDK
 ```
 node -v
 brew install watchman 
@@ -43,6 +64,26 @@ The React Native CLI
 ```
 npm install -g react-native-cli
 ```
+
+2.Bug fixing:  pm ERR! EEXIST: file already exists, symlink '../lib/node_modules/react-native-cli/index.js' -> '/usr/local/bin/react-native'
+npm ERR! File exists: /usr/local/bin/react-native
+```
+sudo npm install -g react-native-cli --force
+```
+3. run this project:  
+```
+cd /Users/zt/react-native-nba-app  
+npm install 
+react-native start 
+```
+4.open a new terminal under the peoject folder:  
+```
+npm test 
+```
+
+[terminal: “npm install -g react-native-cli”](https://stackoverflow.com/questions/32171221/terminal-npm-install-g-react-native-cli)   
+
+
 [The React Native CLI](https://archive.reactnative.dev/docs/0.17/getting-started)   
 Main reference:  
 [如何运行github上react native项目](https://blog.csdn.net/shiningchen322/article/details/57881920?utm_medium=distribute.pc_relevant.none-task-blog-title-6&spm=1001.2101.3001.4242)  
