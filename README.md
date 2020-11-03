@@ -1,8 +1,9 @@
 # Different version React Native build:
 To utilize the diffrent version React Native Project on the Github, first you need to change your node version. second under this node enviroment, you need to utilize different version of the React Native app documentation to run the project.  
 [React Native versions](https://reactnative.dev/versions)   
-[React Native versions](https://archive.reactnative.dev/versions)   
+[React Native All versions](https://archive.reactnative.dev/versions)   
 [Cannot run create-react-native-app](https://stackoverflow.com/questions/46846335/cannot-run-create-react-native-app)  
+[ReactNative和js版本不一致问题分析](https://juejin.im/post/6844904143958573070)   
 # Use the 0.63 version documeatation to build the project:
 
 ## 1 - Create React Native App & Setup  
@@ -138,3 +139,4 @@ Main Reference:
 6.[ReactNativeNews/React-Native-Apps](https://github.com/ReactNativeNews/React-Native-Apps)   
 7.[Installing & Deploying React Native on OS X - iOS/Android](https://www.youtube.com/watch?v=RBZL6PO2ytc&ab_channel=ReactNativeTutorial)   
 8.[facebook/react-native](https://github.com/facebook/react-native#-building-your-first-react-native-app)   
+9.[React Native 实践（涵盖丰富的移动端特有功能）](https://juejin.im/post/6844904022080487432#heading-29)  
