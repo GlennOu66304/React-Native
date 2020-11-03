@@ -61,6 +61,10 @@ Main reference:
 
 ## 2.React Native CLI:  
 
+### Eniviroment Builder:  
+Terminal: Command in the Terminal    
+VS code :Code change in the VS code   
+
 1.First step:
 ```
 source ~/.bash_profile 
@@ -76,23 +80,29 @@ brew install watchman
 ```
 sudo gem install cocoapods
 ```
+### Build a first project in the first shell:  
 4.Creating a new application
 ```
 npx react-native init AwesomeProject
 ```
+### Run the project in the second shell: 
 5.Running your React Native application,under the project folder
 ```
+cd /Users/zt/AwesomeProject
 npx react-native start
-source ~/.bash_profile  
-nvm use node 
 ```
-6.Bug fixing: error Error: Command failed: yarn add react-native@latest  
+### Run the peoject into the iOS simulator in the third shell:  
+6.New terminal open:  
 ```
-node -v 
+1. npm and node version check:  
+node -v
+npm -v
+2. use the latest npm version to install the app:  
 source ~/.bash_profile 
 nvm use node
-npx react-native init TripBookingApp 
+Now using node v14.14.0 (npm v6.14.8)
 ```
+
 Note If the above command is failing, you may have old version of react-native or react-native-cli installed globally on your pc. Try uninstalling the cli and run the cli using npx  
 [React-native init NewProject / yarn add got an error .](https://medium.com/codespace69/react-native-init-newproject-yarn-add-got-an-error-6a5353f8469b)  
 [How to uninstall react-native-cli on mac?](https://stackoverflow.com/questions/57248515/how-to-uninstall-react-native-cli-on-mac)   
@@ -102,6 +112,14 @@ sudo gem install cocoapods -n/usr/local/bin
 ```
 [React-Native: Error: Failed to install CocoaPods dependencies for iOS project, which is required by this template](https://stackoverflow.com/questions/58934022/react-native-error-failed-to-install-cocoapods-dependencies-for-ios-project-w)
  [React-native installing required CocoaPods dependencies stuck](https://stackoverflow.com/questions/56896224/react-native-installing-required-cocoapods-dependencies-stuck/56896295)  
+
+8.Run the peoject into the iOS simulator in the third shell  
+```
+cd /Users/zt/AwesomeProject  
+npx react-native run-ios 
+```
+Then you might need to wait for 8-9 minutes to finis the app building, after that you will see the inital code page in the iOS simulator, at this moment you could open the Xcode to speed up this process.  
+
 
 Main Reference:  
 [Setting up the development environment](https://reactnative.dev/docs/environment-setup)   
