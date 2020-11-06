@@ -90,6 +90,13 @@ Main reference:
 Source Code:[wwayne/react-native-nba-app](https://github.com/wwayne/react-native-nba-app)  
 [下载及运行Github的React Native开源项目](https://blog.csdn.net/jay100500/article/details/77073225)  
 ## ipa package 
+
+Bug fixing:  
+1.[Bitcode Compile During Archive Never Finishes](https://stackoverflow.com/questions/36725314/bitcode-compile-during-archive-never-finishes)   
+2.[Can not export IPA file from XCode 6.1](https://stackoverflow.com/questions/27061729/can-not-export-ipa-file-from-xcode-6-1)   
+3.[Foolproof way to create AdHoc certificates](https://help.installrapp.com/ios/fool-proof-way-to-create-adhoc-certificates/)   
+4.[Xcode: Archiving a project to generate .ipa but export is not an option in Organizer](https://apple.stackexchange.com/questions/369987/xcode-archiving-a-project-to-generate-ipa-but-export-is-not-an-option-in-organ)  
+
 [React Native 打包 iOS 测试 APP](https://blog.whezh.com/react-native-ios-bundle/)  
 [iOS开发证书和生产证书](https://www.jianshu.com/p/63eca43c175e)  
 [获取Xcode 中项目bundle ID 地址](https://blog.csdn.net/wangsun300/article/details/100045974)  
