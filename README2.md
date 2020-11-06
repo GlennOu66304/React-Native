@@ -103,5 +103,5 @@ Source Code:[wwayne/react-native-nba-app](https://github.com/wwayne/react-native
   
 
 ## Test it on your phone
-[蒲公英应用上传](https://www.pgyer.com/doc/view/app_upload)
+[蒲公英应用上传](https://www.pgyer.com/doc/view/app_upload)   
 [【分享】使用免费的苹果开发者账号申请iOS证书打包测试教程](https://my.oschina.net/u/4356887/blog/3384062)  
