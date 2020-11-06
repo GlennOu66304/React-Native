@@ -90,8 +90,18 @@ Main reference:
 Source Code:[wwayne/react-native-nba-app](https://github.com/wwayne/react-native-nba-app)  
 [下载及运行Github的React Native开源项目](https://blog.csdn.net/jay100500/article/details/77073225)  
 ## ipa package 
+[React Native 打包 iOS 测试 APP](https://blog.whezh.com/react-native-ios-bundle/)  
+[iOS开发证书和生产证书](https://www.jianshu.com/p/63eca43c175e)  
+[获取Xcode 中项目bundle ID 地址](https://blog.csdn.net/wangsun300/article/details/100045974)  
+[Certificates, Identifiers & Profiles](https://developer.apple.com/account/resources/profiles/review/A3C6YCFF95)   
+[ReactNative开发IOS环境打包ipa过程](https://blog.csdn.net/ywl570717586/article/details/102566658?utm_medium=distribute.pc_feed_404.none-task-blog-OPENSEARCH-9.nonecase&depth_1-utm_source=distribute.pc_feed_404.none-task-blog-OPENSEARCH-9.nonecas)  
+[react native Xcode打包app发布ipa到蒲公英](https://blog.csdn.net/sinat_33134895/article/details/81703239?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.pc_relevant_is_cache&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.pc_relevant_is_cache)   
+[Create an IPA and APK From a React Native Project](https://medium.com/better-programming/create-ipa-and-apk-from-react-native-72fe53c6a8db)  
+[Can't add a file to an XCode Project](https://stackoverflow.com/questions/3955655/cant-add-a-file-to-an-xcode-project)   
+[xcode 11.4 build fatal error: module map file xxx/Build/Products/Debug-iphoneos/YogaKit/YogaKit.modulemap' not found#28503](https://github.com/facebook/react-native/issues/28503)  
 [React Native打包iOS的ipa包](https://juejin.im/post/6844903639329275912)  
-[React Native打包IOS超详细步骤](https://blog.csdn.net/weixin_43586120/article/details/104622566)  
+  
 
 ## Test it on your phone
+[蒲公英应用上传](https://www.pgyer.com/doc/view/app_upload)
 [【分享】使用免费的苹果开发者账号申请iOS证书打包测试教程](https://my.oschina.net/u/4356887/blog/3384062)  
