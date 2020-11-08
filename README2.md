@@ -91,12 +91,20 @@ Source Code:[wwayne/react-native-nba-app](https://github.com/wwayne/react-native
 [下载及运行Github的React Native开源项目](https://blog.csdn.net/jay100500/article/details/77073225)  
 ## ipa package 
 
+Your Mac already has a Apple developemt certicate, then download it and put it in the key chain access, at the same time. You need to use it in the Xcode sign locatiuon
+[Daily Tip: How to get your UDID number from System Profiler on Mac](https://www.imore.com/daily-tip-udid-number-system-profiler-mac)  
+[MacOS Catalina UDID Copy for iPhone](https://stackoverflow.com/questions/58805519/macos-catalina-udid-copy-for-iphone)  
+
 Bug fixing:  
+[How to: Create an .ipa file From XCode 2019](https://www.youtube.com/watch?v=Wb9yQUP04zg&ab_channel=LirsTechTips)   
+[Xcode Signing certificate is invalid when build on ext device](https://stackoverflow.com/questions/45803131/xcode-signing-certificate-is-invalid-when-build-on-ext-device)  
 1.[Bitcode Compile During Archive Never Finishes](https://stackoverflow.com/questions/36725314/bitcode-compile-during-archive-never-finishes)   
 2.[Can not export IPA file from XCode 6.1](https://stackoverflow.com/questions/27061729/can-not-export-ipa-file-from-xcode-6-1)   
 3.[Foolproof way to create AdHoc certificates](https://help.installrapp.com/ios/fool-proof-way-to-create-adhoc-certificates/)   
 4.[Xcode: Archiving a project to generate .ipa but export is not an option in Organizer](https://apple.stackexchange.com/questions/369987/xcode-archiving-a-project-to-generate-ipa-but-export-is-not-an-option-in-organ)  
-
+5.[How do I find my IOS app's archive file?](https://stackoverflow.com/questions/40274739/how-do-i-find-my-ios-apps-archive-file)  
+[Xcode 8 shows error that provisioning profile doesn't include signing certificate](https://stackoverflow.com/questions/39568005/xcode-8-shows-error-that-provisioning-profile-doesnt-include-signing-certificat?page=2&tab=votes#tab-top)  
+[Code signing issue in Xcode version 8](https://stackoverflow.com/questions/39565906/code-signing-issue-in-xcode-version-8/54682546#54682546)  
 [React Native 打包 iOS 测试 APP](https://blog.whezh.com/react-native-ios-bundle/)  
 [iOS开发证书和生产证书](https://www.jianshu.com/p/63eca43c175e)  
 [获取Xcode 中项目bundle ID 地址](https://blog.csdn.net/wangsun300/article/details/100045974)  
