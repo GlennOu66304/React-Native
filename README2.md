@@ -116,7 +116,18 @@ Bug fixing:
 [xcode 11.4 build fatal error: module map file xxx/Build/Products/Debug-iphoneos/YogaKit/YogaKit.modulemap' not found#28503](https://github.com/facebook/react-native/issues/28503)  
 [React Native打包iOS的ipa包](https://juejin.im/post/6844903639329275912)  
   
+## apk file:  
+Bug fixing:  
+1.First time run the Android studio, you need to set the proxy to the auto proxy,then waiit for the process finish.
+[First run of Android Studio. Unable to access Android SDK add-on list](https://stackoverflow.com/questions/29878370/first-run-of-android-studio-unable-to-access-android-sdk-add-on-list)
 
+2.zip end header not found   
+You need to use the Press Command+Shift+Dot to show the hiden file, then find the ~/.gradle file and rerun the command.  
+[zip end header not found](https://github.com/facebook/react-native/issues/21130)  
+[How to access hidden files on a Mac](https://setapp.com/how-to/show-hidden-files-on-mac)  
+Main reference:  
+[Generating the signed release APK of React Native Android App in 5 minutes](https://www.youtube.com/watch?v=SXFnpo-6u1U&ab_channel=CodewithRaza)  
+[Publishing to Google Play Store](https://reactnative.dev/docs/signed-apk-android)  
 ## Test it on your phone
 [蒲公英应用上传](https://www.pgyer.com/doc/view/app_upload)   
 [【分享】使用免费的苹果开发者账号申请iOS证书打包测试教程](https://my.oschina.net/u/4356887/blog/3384062)  
