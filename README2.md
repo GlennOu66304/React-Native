@@ -147,6 +147,15 @@ touch .bash_profile
 open -e .bash_profile
 source .bash_profile 
 ```
+
+Bug Fixing: SDK location not found. Define location with sdk.dir in the local.properties file or with an ANDROID_HOME environment variable
+```
+sdk.dir = /Users/USERNAME/Library/Android/sdk
+```
+[SDK location not found. Define location with sdk.dir in the local.properties file or with an ANDROID_HOME environment variable](https://stackoverflow.com/questions/27620262/sdk-location-not-found-define-location-with-sdk-dir-in-the-local-properties-fil)  
+Bug: React Native | Failed to install the app. Please accept all necessary SDK licenses using SDK Manager
+[React Native | Failed to install the app. Please accept all necessary SDK licenses using SDK Manager](https://stackoverflow.com/questions/57124607/react-native-failed-to-install-the-app-please-accept-all-necessary-sdk-licens/59249008#:~:text=Go%20to%20Configure%3ESDK%20Manager%20in%20your%20Android%20Studio.&text=And%20accept%20the%20licenses%20you,yet%20(but%20need%20to).&text=Open%20Android%20Studio%2C%20then%20click%20the%20gear%20icon%20(Configure).&text=After%20that%2C%20make%20sure%20that,Android%20SDK%20Tools%20are%20updated.)  
+
 Main reference:  
 [Mac下command not found:gradle解决方案](https://www.jianshu.com/p/239a9f964ad2)  
 [Gradle Command Not Found](https://stackoverflow.com/questions/37019029/gradle-command-not-found)  
