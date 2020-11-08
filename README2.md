@@ -138,6 +138,18 @@ Then run code below:
 [Android Studio Could not initialize class org.codehaus.groovy.runtime.InvokerHelper](https://stackoverflow.com/questions/35000729/android-studio-could-not-initialize-class-org-codehaus-groovy-runtime-invokerhel)  
 [java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.vmplugin.v7.Ja【已解决】](https://blog.csdn.net/mp624183768/article/details/107316578)  
 [What is the difference between gradlew build and gradlew assembleRelease](https://stackoverflow.com/questions/40219917/what-is-the-difference-between-gradlew-build-and-gradlew-assemblerelease)  
+
+Bug fixing:  zsh: command not found: gradle
+```
+touch .bash_profile
+open -e .bash_profile
+source .bash_profile 
+```
+Main reference:  
+[Mac下command not found:gradle解决方案](https://www.jianshu.com/p/239a9f964ad2)  
+[Gradle Command Not Found](https://stackoverflow.com/questions/37019029/gradle-command-not-found)  
+[zsh: command not found: gradle](https://www.programmersought.com/article/47065021046/)  
+
 Main reference:  
 [Generating the signed release APK of React Native Android App in 5 minutes](https://www.youtube.com/watch?v=SXFnpo-6u1U&ab_channel=CodewithRaza)  
 [Publishing to Google Play Store](https://reactnative.dev/docs/signed-apk-android)  
