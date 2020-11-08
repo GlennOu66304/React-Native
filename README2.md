@@ -124,7 +124,20 @@ Bug fixing:
 2.zip end header not found   
 You need to use the Press Command+Shift+Dot to show the hiden file, then find the ~/.gradle file and rerun the command.  
 [zip end header not found](https://github.com/facebook/react-native/issues/21130)  
-[How to access hidden files on a Mac](https://setapp.com/how-to/show-hidden-files-on-mac)  
+[How to access hidden files on a Mac](https://setapp.com/how-to/show-hidden-files-on-mac) 
+
+3. Bug:java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.vmplugin.v7.Java
+You need to go to your React Native Project and find the file: gradle-wrapper.properties, then change the distributionUrl to the code below: 
+```
+distributionUrl=https\://services.gradle.org/distributions/gradle-6.3-all.zip
+```
+Then run code below:  
+```
+./gradlew assembleRelease
+```
+[Android Studio Could not initialize class org.codehaus.groovy.runtime.InvokerHelper](https://stackoverflow.com/questions/35000729/android-studio-could-not-initialize-class-org-codehaus-groovy-runtime-invokerhel)  
+[java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.vmplugin.v7.Ja【已解决】](https://blog.csdn.net/mp624183768/article/details/107316578)  
+[What is the difference between gradlew build and gradlew assembleRelease](https://stackoverflow.com/questions/40219917/what-is-the-difference-between-gradlew-build-and-gradlew-assemblerelease)  
 Main reference:  
 [Generating the signed release APK of React Native Android App in 5 minutes](https://www.youtube.com/watch?v=SXFnpo-6u1U&ab_channel=CodewithRaza)  
 [Publishing to Google Play Store](https://reactnative.dev/docs/signed-apk-android)  
