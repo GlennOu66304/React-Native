@@ -135,6 +135,8 @@ Then run code below:
 ```
 ./gradlew assembleRelease
 ```
+[How to check Java version and JDK version on Mac](https://justinbagley.rbind.io/2020/01/05/how-to-check-java-version-on-mac/)
+[services.gradle.org/ distributions/](https://services.gradle.org/distributions/)  
 [Android Studio Could not initialize class org.codehaus.groovy.runtime.InvokerHelper](https://stackoverflow.com/questions/35000729/android-studio-could-not-initialize-class-org-codehaus-groovy-runtime-invokerhel)  
 [java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.vmplugin.v7.Ja【已解决】](https://blog.csdn.net/mp624183768/article/details/107316578)  
 [What is the difference between gradlew build and gradlew assembleRelease](https://stackoverflow.com/questions/40219917/what-is-the-difference-between-gradlew-build-and-gradlew-assemblerelease)  
