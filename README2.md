@@ -159,7 +159,10 @@ Bug: React Native | Failed to install the app. Please accept all necessary SDK l
 Bug fixing:ERROR Android emulator gets killed
 You need to leave the Mac free space for 9 GB to run the emmulater  
 
-[ERROR Android emulator gets killed](https://stackoverflow.com/questions/36841461/error-android-emulator-gets-killed?page=1&tab=votes#tab-top)
+[ERROR Android emulator gets killed](https://stackoverflow.com/questions/36841461/error-android-emulator-gets-killed?page=1&tab=votes#tab-top)   
+
+[gradlew: Permission Denied](https://stackoverflow.com/questions/17668265/gradlew-permission-denied/17669566)  
+
 
 Main reference:  
 [Mac下command not found:gradle解决方案](https://www.jianshu.com/p/239a9f964ad2)  
