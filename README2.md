@@ -146,15 +146,15 @@ other References:
   
 ## apk file:  
 Bug fixing:  
-1.First time run the Android studio, you need to set the proxy to the auto proxy,then waiit for the process finish.
+### 1.First time run the Android studio, you need to set the proxy to the auto proxy,then waiit for the process finish.
 [First run of Android Studio. Unable to access Android SDK add-on list](https://stackoverflow.com/questions/29878370/first-run-of-android-studio-unable-to-access-android-sdk-add-on-list)
 
-2.zip end header not found   
+### 2.zip end header not found   
 You need to use the Press Command+Shift+Dot to show the hiden file, then find the ~/.gradle file and rerun the command.  
 [zip end header not found](https://github.com/facebook/react-native/issues/21130)  
 [How to access hidden files on a Mac](https://setapp.com/how-to/show-hidden-files-on-mac) 
 
-3. Bug:java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.vmplugin.v7.Java
+### 3. Bug:java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.vmplugin.v7.Java
 You need to go to your React Native Project and find the file: gradle-wrapper.properties, then change the distributionUrl to the code below: 
 ```
 distributionUrl=https\://services.gradle.org/distributions/gradle-6.3-all.zip
@@ -169,14 +169,14 @@ Then run code below:
 [java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.vmplugin.v7.Ja【已解决】](https://blog.csdn.net/mp624183768/article/details/107316578)  
 [What is the difference between gradlew build and gradlew assembleRelease](https://stackoverflow.com/questions/40219917/what-is-the-difference-between-gradlew-build-and-gradlew-assemblerelease)  
 
-Bug fixing:  zsh: command not found: gradle
+### Bug fixing:  zsh: command not found: gradle
 ```
 touch .bash_profile
 open -e .bash_profile
 source .bash_profile 
 ```
 
-Bug Fixing: SDK location not found. Define location with sdk.dir in the local.properties file or with an ANDROID_HOME environment variable
+### Bug Fixing: SDK location not found. Define location with sdk.dir in the local.properties file or with an ANDROID_HOME environment variable
 ```
 sdk.dir = /Users/USERNAME/Library/Android/sdk
 ```
@@ -184,7 +184,7 @@ sdk.dir = /Users/USERNAME/Library/Android/sdk
 Bug: React Native | Failed to install the app. Please accept all necessary SDK licenses using SDK Manager
 [React Native | Failed to install the app. Please accept all necessary SDK licenses using SDK Manager](https://stackoverflow.com/questions/57124607/react-native-failed-to-install-the-app-please-accept-all-necessary-sdk-licens/59249008#:~:text=Go%20to%20Configure%3ESDK%20Manager%20in%20your%20Android%20Studio.&text=And%20accept%20the%20licenses%20you,yet%20(but%20need%20to).&text=Open%20Android%20Studio%2C%20then%20click%20the%20gear%20icon%20(Configure).&text=After%20that%2C%20make%20sure%20that,Android%20SDK%20Tools%20are%20updated.)  
 
-Bug fixing:ERROR Android emulator gets killed
+### Bug fixing:ERROR Android emulator gets killed
 You need to leave the Mac free space for 9 GB to run the emmulater  
 
 [ERROR Android emulator gets killed](https://stackoverflow.com/questions/36841461/error-android-emulator-gets-killed?page=1&tab=votes#tab-top)   
