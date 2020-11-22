@@ -109,12 +109,12 @@ Main reference:
 
 ### Release Dug version check:  
 run choose the debug mode
-Achive Choose the Release, you could check the mode image in the tutorial below to verify it.
-Main refernece:  
+Achive Choose the Release, you could check the mode image in the tutorial below to verify it.   
+Main refernece:    
 [react native Xcode打包app发布ipa到蒲公英](https://blog.csdn.net/sinat_33134895/article/details/81703239?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.pc_relevant_is_cache&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.pc_relevant_is_cache)  
 
 ### bug fixing:xcode 11.4 build fatal error: module map file xxx/Build/Products/Debug-iphoneos/YogaKit/YogaKit.modulemap' not found
-open the .xcodeworkspace file instead of the  .xcodeproj flie. to run in the Xcode;
+open the .xcodeworkspace file instead of the  .xcodeproj flie. to run in the Xcode;   
 Main reference:   
 [xcode 11.4 build fatal error: module map file xxx/Build/Products/Debug-iphoneos/YogaKit/YogaKit.modulemap' not found #28503](https://github.com/facebook/react-native/issues/28503)
 
