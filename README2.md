@@ -100,7 +100,7 @@ Your Mac already has a Apple developemt certicate, then download it and put it i
 ### Bundle building: 
 1.cd to the ios directory;  
 2.under the ios directory, build the bundle folder;
-2.run the bundle command below:
+3.Go back to the project Main directory run the bundle command below:
 ```
 react-native bundle --entry-file index.js --platform ios --dev false --bundle-output ./ios/bundle/index.ios.jsbundle --assets-dest ./ios/bundle
 ```
