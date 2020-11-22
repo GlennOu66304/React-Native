@@ -109,7 +109,7 @@ Bug fixing:
 Main reference:   
 [React Native 打包 iOS 测试 APP](https://blog.whezh.com/react-native-ios-bundle/)  
 
-other References:
+other References:   
 [iOS开发证书和生产证书](https://www.jianshu.com/p/63eca43c175e)  
 [获取Xcode 中项目bundle ID 地址](https://blog.csdn.net/wangsun300/article/details/100045974)  
 [Certificates, Identifiers & Profiles](https://developer.apple.com/account/resources/profiles/review/A3C6YCFF95)   
