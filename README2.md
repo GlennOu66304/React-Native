@@ -90,10 +90,22 @@ Main reference:
 Source Code:[wwayne/react-native-nba-app](https://github.com/wwayne/react-native-nba-app)  
 [下载及运行Github的React Native开源项目](https://blog.csdn.net/jay100500/article/details/77073225)  
 ## ipa package 
-
+### Certiface issue:  
 Your Mac already has a Apple developemt certicate, then download it and put it in the key chain access, at the same time. You need to use it in the Xcode sign locatiuon.
+
+### UDID issue
 [Daily Tip: How to get your UDID number from System Profiler on Mac](https://www.imore.com/daily-tip-udid-number-system-profiler-mac)  
 [MacOS Catalina UDID Copy for iPhone](https://stackoverflow.com/questions/58805519/macos-catalina-udid-copy-for-iphone)  
+
+### Bundle building: 
+1.cd to the ios directory;  
+2.under the ios directory, build the bundle folder;
+2.run the bundle command below:
+```
+react-native bundle --entry-file index.js --platform ios --dev false --bundle-output ./ios/bundle/index.ios.jsbundle --assets-dest ./ios/bundle
+```
+Main reference:  
+[一、生成bundle文件](https://juejin.cn/post/6844903639329275912)  
 
 Bug fixing:  
 [How to: Create an .ipa file From XCode 2019](https://www.youtube.com/watch?v=Wb9yQUP04zg&ab_channel=LirsTechTips)   
