@@ -131,7 +131,8 @@ Bug fixing:
 
 Main reference:   
 [React Native 打包 iOS 测试 APP](https://blog.whezh.com/react-native-ios-bundle/)  
-
+[React Native打包iOS的ipa包](https://juejin.im/post/6844903639329275912)   
+[react native Xcode打包app发布ipa到蒲公英](https://blog.csdn.net/sinat_33134895/article/details/81703239?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.pc_relevant_is_cache&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.pc_relevant_is_cache)   
 other References:   
 [iOS开发证书和生产证书](https://www.jianshu.com/p/63eca43c175e)  
 [获取Xcode 中项目bundle ID 地址](https://blog.csdn.net/wangsun300/article/details/100045974)  
