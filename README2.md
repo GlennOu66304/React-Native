@@ -106,7 +106,7 @@ Bug fixing:
 [Xcode 8 shows error that provisioning profile doesn't include signing certificate](https://stackoverflow.com/questions/39568005/xcode-8-shows-error-that-provisioning-profile-doesnt-include-signing-certificat?page=2&tab=votes#tab-top)  
 [Code signing issue in Xcode version 8](https://stackoverflow.com/questions/39565906/code-signing-issue-in-xcode-version-8/54682546#54682546)  
 
-Main reference:
+Main reference:   
 [React Native 打包 iOS 测试 APP](https://blog.whezh.com/react-native-ios-bundle/)  
 
 other References:
