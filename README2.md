@@ -91,7 +91,7 @@ Source Code:[wwayne/react-native-nba-app](https://github.com/wwayne/react-native
 [下载及运行Github的React Native开源项目](https://blog.csdn.net/jay100500/article/details/77073225)  
 ## ipa package 
 
-Your Mac already has a Apple developemt certicate, then download it and put it in the key chain access, at the same time. You need to use it in the Xcode sign locatiuon
+Your Mac already has a Apple developemt certicate, then download it and put it in the key chain access, at the same time. You need to use it in the Xcode sign locatiuon.
 [Daily Tip: How to get your UDID number from System Profiler on Mac](https://www.imore.com/daily-tip-udid-number-system-profiler-mac)  
 [MacOS Catalina UDID Copy for iPhone](https://stackoverflow.com/questions/58805519/macos-catalina-udid-copy-for-iphone)  
 
@@ -105,7 +105,11 @@ Bug fixing:
 5.[How do I find my IOS app's archive file?](https://stackoverflow.com/questions/40274739/how-do-i-find-my-ios-apps-archive-file)  
 [Xcode 8 shows error that provisioning profile doesn't include signing certificate](https://stackoverflow.com/questions/39568005/xcode-8-shows-error-that-provisioning-profile-doesnt-include-signing-certificat?page=2&tab=votes#tab-top)  
 [Code signing issue in Xcode version 8](https://stackoverflow.com/questions/39565906/code-signing-issue-in-xcode-version-8/54682546#54682546)  
+
+Main reference:
 [React Native 打包 iOS 测试 APP](https://blog.whezh.com/react-native-ios-bundle/)  
+
+other References:
 [iOS开发证书和生产证书](https://www.jianshu.com/p/63eca43c175e)  
 [获取Xcode 中项目bundle ID 地址](https://blog.csdn.net/wangsun300/article/details/100045974)  
 [Certificates, Identifiers & Profiles](https://developer.apple.com/account/resources/profiles/review/A3C6YCFF95)   
