@@ -107,6 +107,11 @@ react-native bundle --entry-file index.js --platform ios --dev false --bundle-ou
 Main reference:  
 [一、生成bundle文件](https://juejin.cn/post/6844903639329275912)  
 
+### Release Dug version check:  
+run choose the debug mode
+Achive Choose the Release, you could check the mode image in the tutorial below to verify it.
+Main refernece:  
+[react native Xcode打包app发布ipa到蒲公英](https://blog.csdn.net/sinat_33134895/article/details/81703239?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.pc_relevant_is_cache&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.pc_relevant_is_cache)  
 Bug fixing:  
 [How to: Create an .ipa file From XCode 2019](https://www.youtube.com/watch?v=Wb9yQUP04zg&ab_channel=LirsTechTips)   
 [Xcode Signing certificate is invalid when build on ext device](https://stackoverflow.com/questions/45803131/xcode-signing-certificate-is-invalid-when-build-on-ext-device)  
