@@ -112,6 +112,12 @@ run choose the debug mode
 Achive Choose the Release, you could check the mode image in the tutorial below to verify it.
 Main refernece:  
 [react native Xcode打包app发布ipa到蒲公英](https://blog.csdn.net/sinat_33134895/article/details/81703239?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.pc_relevant_is_cache&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.pc_relevant_is_cache)  
+
+### bug fixing:xcode 11.4 build fatal error: module map file xxx/Build/Products/Debug-iphoneos/YogaKit/YogaKit.modulemap' not found
+open the .xcodeworkspace file instead of the  .xcodeproj flie. to run in the Xcode;
+Main reference:   
+[xcode 11.4 build fatal error: module map file xxx/Build/Products/Debug-iphoneos/YogaKit/YogaKit.modulemap' not found #28503](https://github.com/facebook/react-native/issues/28503)
+
 Bug fixing:  
 [How to: Create an .ipa file From XCode 2019](https://www.youtube.com/watch?v=Wb9yQUP04zg&ab_channel=LirsTechTips)   
 [Xcode Signing certificate is invalid when build on ext device](https://stackoverflow.com/questions/45803131/xcode-signing-certificate-is-invalid-when-build-on-ext-device)  
