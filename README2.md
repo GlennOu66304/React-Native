@@ -1,7 +1,7 @@
 # IPA For Iphone only
 
-# Run RN Project from Github and ipa package & Test it on your phone
-## Run RN Project from Github
+# 1.  Run RN Project from Github and ipa package & Test it on your phone
+ Run RN Project from Github
  1.Git cloen Project: 
  ```
  git clone git@github.com:wwayne/react-native-nba-app.git
@@ -91,7 +91,9 @@ Main reference:
 [如何运行github上react native项目](https://blog.csdn.net/shiningchen322/article/details/57881920?utm_medium=distribute.pc_relevant.none-task-blog-title-6&spm=1001.2101.3001.4242)  
 Source Code:[wwayne/react-native-nba-app](https://github.com/wwayne/react-native-nba-app)  
 [下载及运行Github的React Native开源项目](https://blog.csdn.net/jay100500/article/details/77073225)  
-## ipa package 
+
+
+# 2. ipa package 
 ### Certiface issue:  
 Your Mac already has a Apple developemt certicate, then download it and put it in the key chain access, at the same time. You need to use it in the Xcode sign locatiuon.
 
@@ -146,7 +148,26 @@ other References:
 [xcode 11.4 build fatal error: module map file xxx/Build/Products/Debug-iphoneos/YogaKit/YogaKit.modulemap' not found#28503](https://github.com/facebook/react-native/issues/28503)  
 [React Native打包iOS的ipa包](https://juejin.im/post/6844903639329275912)  
   
-## apk file:  
+# 3.The logic to use the test flight:
+
+First, as a developer you need to be a membership of App Developer Program, then are valid to distribute your app through the test flight method.  
+
+Once you have your React native app original code is ready, then you can use the Appuploader to generate the profile file and iOS certificate. then use the command line to compile the file to the IPA file and use the X code or HBX to   
+
+Add the certificate and profile file.    
+
+once you get your IPA file is ready, then you can upload the IPA file to the Itunes to generate the Test flight app   
+
+[022 ios APP最新开发测试教程](http://help.applicationloader.net/topic/appuploader/iosdev1.html#2022-ios-app最新开发测试教程)  
+
+[**Do I have to pay to use TestFlight app?**](https://www.quora.com/Do-I-have-to-pay-to-use-TestFlight-app)  
+
+[Hbuilder X 编辑器官方下载地址](https://www.w3cschool.cn/developerdownload/developerdownload-6uzg36sx.html) 
+
+[2020- TestFlight上架流程TestFlight内部及外部测试教程](https://www.jianshu.com/p/f3d25cbe4400?u_atoken=49a6d20f-5d50-40e4-aba8-e641cb692592&u_asession=01X0ACw7fjn6MBeC1ifpi9g8eQ9_IQz_dO145wEMqSaj5Qto1zeFZWDnuftGsxGxntX0KNBwm7Lovlpxjd_P_q4JsKWYrT3W_NKPr8w6oU7K__6p4cxElC6wusRw_Edfu9p0TkEaMSMNP4umocQhrjq2BkFo3NEHBv0PZUm6pbxQU&u_asig=05g3629DOBq16YsuugxDy6-0YRav4I_XYv5emJq4C58-Syy2E5mTLCz3xHx3kovnPVsAJgzoxPMfEWgRqaF79sDQq8sJ12phBaOU3hELUP4MlgcMTQX6a9Xb970ubdNppKditd13ZwFCQjAAhsKnqe4aJKNrZ9CWpppB5KDSoxEBP9JS7q8ZD7Xtz2Ly-b0kmuyAKRFSVJkkdwVUnyHAIJzeroV8T8IguMezfmT6w2BzuFWOL08YDpURjEHBJ1FNX2G3pf5vm7LeeSuJ_913VgsO3h9VXwMyh6PgyDIVSG1W_OKzCM_7yBKxZtT_LzXVKvQKranM7rBKraCitp69DNzBL3Mmks-srZQyKmbVIGgWOwl_m8bCTWRUqYL3K7NSoBmWspDxyAEEo4kbsryBKb9Q&u_aref=ge8nr6vkP714lzLtLfcn4n7QZ2A%3D)  
+  
+  
+# apk file:  
 Bug fixing:  
 ### 1.First time run the Android studio, you need to set the proxy to the auto proxy,then waiit for the process finish.
 [First run of Android Studio. Unable to access Android SDK add-on list](https://stackoverflow.com/questions/29878370/first-run-of-android-studio-unable-to-access-android-sdk-add-on-list)
