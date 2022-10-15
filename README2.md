@@ -1,3 +1,5 @@
+# IPA For Iphone only
+
 # Run RN Project from Github and ipa package & Test it on your phone
 ## Run RN Project from Github
  1.Git cloen Project: 
